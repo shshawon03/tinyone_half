@@ -1,0 +1,127 @@
+/*font links start*/
+@font-face {
+  src: url(../fonts/pt_sans/ptsans-bold.ttf);
+  font-family: ptsans-bold;
+}
+@font-face {
+  src: url(../fonts/pt_sans/ptsans-regular.ttf);
+  font-family: ptsans-regular;
+}
+/*font links end*/
+/*common start*/
+body {
+  margin: 0;
+  font-family: ptsans-regular;
+  font-size: 16px;
+  font-weight: 400;
+  color: #898989;
+}
+/*common end*/
+/*header start*/
+header {
+  padding: 20px 0;
+  background-color: #fcdb00;
+}
+.h_nav {}
+.logo {}
+.menu {}
+.menu ul li a {
+  padding: 0 50px !important;
+  font-size: 22px;
+  font-weight: 700;
+  color: #010101 !important;
+}
+.menu ul li:last-child a {
+  padding-right: 0 !important;
+}
+.menu ul li a:hover {
+  color: #ffffff !important;
+}
+/*header end*/
+/*slider start*/
+.slider {
+  padding-bottom: 100px;
+  background-color: #fcdb00;
+}
+.caro_indi {
+  bottom: -80px;
+}
+.caro_indi [data-bs-target] {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+.s_text {
+  margin-top: 50px;
+}
+.s_text h1 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #010101;
+}
+.s_text h2 {
+  margin: 20px 0;
+  font-size: 20px;
+  font-weight: 400;
+  color: #313841;
+}
+.s_text p {
+  margin-bottom: 35px;
+  color: #555555;
+}
+.s_icon {}
+.s_icon ul li {
+  margin-right: 30px !important;
+}
+.s_icon ul li i {
+  font-size: 42px;
+  color: #010101;
+  transition: 0.33s linear;
+}
+.s_icon ul li i:hover {
+  transform: scale(0.8);
+}
+.s_img {}
+.s_img img {}
+/*slider end*/
+/*feature start*/
+.feature {
+  padding: 100px 0 120px;
+}
+.c_title {}
+.c_h1 {
+  margin-bottom: 15px;
+  font-size: 32px;
+  font-weight: 700;
+  color: #010101;
+}
+.c_p {
+  font-size: 20px;
+  color: #313841;
+  line-height: 28px;
+}
+.f_item {
+  margin-top: 70px;
+}
+.f_icon {}
+.f_icon i {
+  margin-top: 5px;
+  font-size: 50px;
+  color: #010101;
+  transition: 0.33s linear;
+}
+.f_icon i:hover {
+  transform: scale(0.8);
+}
+.f_text {}
+.f_text h2 {
+  margin-bottom: 10px;
+  font-size: 22px;
+  font-weight: 400;
+  color: #010101;
+}
+.f_text p {
+  letter-spacing: 1px;
+}
+/*feature end*/
